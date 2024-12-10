@@ -153,36 +153,76 @@
 
 // }
 
-function day(){
-    let day=document.getElementById("day").value
-    let h2=document.getElementById("display")
+// function day(){
+//     let day=document.getElementById("day").value
+//     let h2=document.getElementById("display")
     
-    if (day==1){
-        h2.innerHTML='Sunday'
+//     if (day==1){
+//         h2.innerHTML='Sunday'
    
-    }
-    else if (day==2){
-        h2.innerHTML='Monday'
-    }
-    else if (day==3){
-        h2.innerHTML='Tuesday'
-    }
-    else if (day==4){
-        h2.innerHTML='Wednessday'
-    }
-    else if (day==5){
-        h2.innerHTML='Thursday'
-    }
-    else if (day==6){
-        h2.innerHTML='Friday'
-    }
-    else if (day==7){
-        h2.innerHTML='Saturday'
-    }
-    else{
-        h2.innerHTML='invalid'
+//     }
+//     else if (day==2){
+//         h2.innerHTML='Monday'
+//     }
+//     else if (day==3){
+//         h2.innerHTML='Tuesday'
+//     }
+//     else if (day==4){
+//         h2.innerHTML='Wednessday'
+//     }
+//     else if (day==5){
+//         h2.innerHTML='Thursday'
+//     }
+//     else if (day==6){
+//         h2.innerHTML='Friday'
+//     }
+//     else if (day==7){
+//         h2.innerHTML='Saturday'
+//     }
+//     else{
+//         h2.innerHTML='invalid'
  
-    }
+//     }
    
 
+// }
+
+// function fun2(){
+
+//     let n1=parseInt(document.getElementById("n1").value)
+//     let h1=document.getElementById("dis")
+//     if (n1>=100000){
+//         h1.innerHTML=n1*.15
+//     }
+//     else if(n1>=50000 && n1<=100000){
+//         h1.innerHTML=n1*.10
+//     }
+//     else{
+//         h1.innerHTML=n1*.05
+//     }
+// }
+
+// function fun2(){
+//     let n1=parseInt(document.getElementById("n1").value)
+//     let h1=document.getElementById("dis")
+//     if (n1%3==0){
+//         h1.innerHTML="is divisible"  
+//     }
+//     else{
+//         h1.innerHTML="is not divisible"  
+//     }
+// }
+
+function fun2(){
+    let n1=parseInt(document.getElementById("n1").value)
+    let h1=document.getElementById("dis")
+    if (n1<=100){
+        h1.innerHTML="no charge"  
+    }
+    else if(n1<=200 && n1>=100){
+        h1.innerHTML=5*n1(n1-100)  
+    }
+    else{
+        h1.innerHTML=(n1-200)*10+500
+    }
 }
