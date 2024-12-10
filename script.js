@@ -67,3 +67,122 @@
 // console.log(a!=b && a==10);     // and  
 // console.log(a!=b || a==10);     // not
 
+
+// function sample(){
+    // let result=document.getElementById("name")
+    // console.log(result.value);
+    // document.getElementById("display").innerHTML=result.value
+
+    // let result=document.getElementById("name").value
+    // console.log(result);
+    // let h2=document.getElementById("display")
+    // h2.innerHTML=result
+
+// }
+
+
+// function sample1(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1+no2
+// }
+// function sample2(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1-no2
+// }
+// function sample3(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1*no2
+// }
+// function sample4(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+//     h2.innerHTML=no1/no2  
+// }
+
+// function sample(){
+//     let no1=parseInt(document.getElementById("no1").value)
+//     let no2=parseInt(document.getElementById("no2").value)
+//     let h2=document.getElementById("display")
+
+//     if (no1==no2){
+//         h2.innerHTML='eql'
+//     }
+//     else if(no1!=no2){
+//         h2.innerHTML='not eql'
+//     }
+    // else{
+    //     h2.innerHTML='not eql'
+    // }
+// }
+
+// function service(){
+//     let salary=parseInt(document.getElementById("salary").value)
+//     let experience=parseInt(document.getElementById("experience").value)
+//     let h2=document.getElementById("display")
+
+//     if (experience>5){
+//             bonus=0.05*experience
+//             h2.innerHTML=('Eligible for bonus of 5%',bonus)
+//             }
+//     else {
+//         h2.innerHTML='Not eligible'
+//     }           
+// }
+
+// function city(){
+//     let city=document.getElementById("city").value
+//     let h2=document.getElementById("display")
+    
+//     if (city=='delhi'){
+//         h2.innerHTML='Red Fort'
+   
+//     }
+//     else if (city=='agra'){
+//         h2.innerHTML='Taj Mahal'
+//     }
+//     else if (city=='jaipur'){
+//         h2.innerHTML='Jal Mahal'
+//     }
+
+// }
+
+function day(){
+    let day=document.getElementById("day").value
+    let h2=document.getElementById("display")
+    
+    if (day==1){
+        h2.innerHTML='Sunday'
+   
+    }
+    else if (day==2){
+        h2.innerHTML='Monday'
+    }
+    else if (day==3){
+        h2.innerHTML='Tuesday'
+    }
+    else if (day==4){
+        h2.innerHTML='Wednessday'
+    }
+    else if (day==5){
+        h2.innerHTML='Thursday'
+    }
+    else if (day==6){
+        h2.innerHTML='Friday'
+    }
+    else if (day==7){
+        h2.innerHTML='Saturday'
+    }
+    else{
+        h2.innerHTML='invalid'
+ 
+    }
+   
+
+}
