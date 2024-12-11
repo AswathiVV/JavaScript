@@ -213,16 +213,87 @@
 //     }
 // }
 
-function fun2(){
-    let n1=parseInt(document.getElementById("n1").value)
-    let h1=document.getElementById("dis")
-    if (n1<=100){
-        h1.innerHTML="no charge"  
-    }
-    else if(n1<=200 && n1>=100){
-        h1.innerHTML=5*n1(n1-100)  
-    }
-    else{
-        h1.innerHTML=(n1-200)*10+500
-    }
-}
+// function fun2(){
+//     let n1=parseInt(document.getElementById("n1").value)
+//     let h1=document.getElementById("dis")
+//     if (n1<=100){
+//         h1.innerHTML="no charge"  
+//     }
+//     else if(n1<=200 && n1>=100){
+//         h1.innerHTML=5*n1(n1-100)  
+//     }
+//     else{
+//         h1.innerHTML=(n1-200)*10+500
+//     }
+// }
+
+
+// function For(){
+//     for(let i=1;i<=10;i++){
+//         console.log(i)
+//     }
+
+// }
+
+// function While(){
+//     let i=1
+// while (i<=10){
+//     console.log(i);
+//     i++
+ 
+// }
+// }
+
+
+// function Do(){
+//     let i=1
+//     do{
+//         console.log(i);
+//         i++
+//     }
+//     while(i<=10)
+// }
+
+// function no(){
+//     let start=parseInt(document.getElementById("start").value)
+//     let end=parseInt(document.getElementById("end").value)
+//     let h1=document.getElementById("display")
+//     for(let i=start;i<=end;i++){
+//         if(i%2!=0){
+//            console.log(i)
+//         }
+//     }
+
+// }
+
+// function add(){
+//     let start=parseInt(document.getElementById("start").value)
+//     let h1=document.getElementById("display")
+//     a=1
+//     for(let i=a;i<=start+1;i++){
+//            console.log(a,'+',start,'=',a+start)
+        
+//     }
+// }
+
+// function add(){
+//     let start=parseInt(document.getElementById("start").value)
+//     let end=parseInt(document.getElementById("end").value)
+//     let h1=document.getElementById("display")
+//     a=1
+//     for(let i=a;i<=start+1;i++){
+//            console.log(start,'+',end,'=',start+end)
+        
+//     }
+// }
+
+// function multi(){
+//     let start=parseInt(document.getElementById("start").value)
+//     let end=parseInt(document.getElementById("end").value)
+//     let h1=document.getElementById("display")
+//     a=1
+//     for(let i=a;i<=start+1;i++){
+//            console.log(start,'*',end,'=',start*end)
+        
+//     }
+// }
