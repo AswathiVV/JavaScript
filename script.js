@@ -297,3 +297,89 @@
         
 //     }
 // }
+
+
+
+
+// let a='welcome'
+// console.log(a);
+// console.log(a.length);
+// console.log(a[0]);
+// console.log(a.charAt(1));
+// console.log((a.concat(' ','to all')));
+// console.log(a.startsWith('w'));
+// console.log(a.endsWith('w'));
+// console.log(a.toUpperCase());
+// console.log(a.toLowerCase());
+
+// let a='  welcome  '
+// console.log(a.trim());
+// console.log(a.trimEnd());
+// console.log(a.trimStart());
+
+
+// Array
+
+// let a=['apple','orange','kiwi']
+// console.log(a.length);
+// console.log(a[0]);
+
+// a[0]='APPLE'
+// console.log(a)
+
+// a.push(['banana','mango']);
+// console.log(a)
+
+// a.pop()
+// console.log(a)
+
+// a.shift()
+// console.log(a)
+
+// a.unshift('banana')
+// console.log(a);
+
+
+// function fun(a){
+//     console.log('fun',a);
+// }
+// fun('hello')
+
+// const data=function(a){
+//     console.log('data',a);
+// }
+// data('hello')
+
+// const data= (a)=>console.log('arrow fun',a);
+// data('hello')
+
+
+
+data=[{id:'1',name:'Manu',age:22},{id:'2',name:'Anu',age:22},{id:'3',name:'Sanu',age:22},{id:'4',name:'Banu',age:22}]
+
+function Display(){
+    let tbody=document.querySelector("tbody")
+
+    data.forEach((user) => {
+        let tr=document.createElement("tr")
+
+        let id_td=document.createElement("td")
+        id_td.innerHTML=user.id
+        tr.appendChild(id_td)
+
+        let name_td=document.createElement("td")
+        name_td.innerHTML=user.name
+        tr.appendChild(name_td)
+
+        let age_td=document.createElement("td")
+        age_td.innerHTML=user.age
+        tr.appendChild(age_td)
+
+        
+
+        tbody.appendChild(tr)
+    });
+    
+
+}
+Display()
