@@ -116,31 +116,149 @@
 
 
 
-let eml=document.getElementById("eml")
-let len=document.getElementById("len")
-let sml=document.getElementById("sml")
-let no=document.getElementById("no")
-let spl=document.getElementById("spl")
+// let eml=document.getElementById("eml")
+// let len=document.getElementById("len")
+// let sml=document.getElementById("sml")
+// let no=document.getElementById("no")
+// let spl=document.getElementById("spl")
 
-eml.addEventListener('input',function(){
-        let email=eml.value
-        len.style.color=email.length>=8 ? 'green' : 'red'
-        sml.style.color=/[a-z]/.test(email) ? 'green' : 'red'
-        no.style.color=/\d/.test(email)  ? 'green' : 'red'
-        spl.style.color=/[!@#$%&*]/.test(email)  ? 'green' : 'red'
+// eml.addEventListener('input',function(){
+//         let email=eml.value
+//         len.style.color=email.length>=8 ? 'green' : 'red'
+//         sml.style.color=/^[a-z]/.test(email) ? 'green' : 'red'
+//         no.style.color=/\d/.test(email)  ? 'green' : 'red'
+//         spl.style.color=/[@]/.test(email)  ? 'green' : 'red'
 
-})
+// })
 
-document.getElementById("form").addEventListener('submit',function(event){
-        event.preventDefault()
-        let email=document.getElementById("eml").value
-        console.log(email.length);
+// document.getElementById("form").addEventListener('submit',function(event){
+//         event.preventDefault()
+//         let email=document.getElementById("eml").value
+//         console.log(email.length);
 
-        if(email.length>=8 && /[a-z]/.test(email) && /\d/.test(email) && /[!@#$%&*]/.test(email)){
-                alert('Valid')
-        }
-        else{
-                alert('Invalid')
-        }
+//         if(email.length>=8 && /^[a-z]/.test(email) && /\d/.test(email) && /[@]/.test(email)){
+//                 alert('Valid')
+//         }
+//         else{
+//                 alert('Invalid')
+//         }
 
-})
+// })
+
+
+
+// try{
+//    console.log('a')
+// }
+// catch(error){
+//         console.log('error',error.message)
+// }
+// finally{
+//         console.log('prg ends')
+// }
+
+
+// class std{
+//         constructor(){
+//                 console.log('demo data')
+//         }
+
+//         display(){
+//                 console.log('display')
+//         }
+// }
+
+// let std1= new std
+// std1.display()
+
+
+// class std{
+//         constructor(name){
+//                 this.name=name
+//                 console.log('demo data');
+//         }
+
+//         display(age){
+//                 console.log('display',this.name,age);
+//         }
+// }
+
+// let std1=new std('Anu')
+// std1.display(22)
+
+
+// class schools{
+//         constructor(){
+//                 console.log('School class');
+//         }
+//         classroom(){
+//                 console.log('class rooms')
+//         }
+// }
+
+// class std extends schools {
+//         constructor(name){
+//                 super()
+//                 this.name=name
+//                 console.log('demo data')
+//         }
+//         display(age){
+//                 console.log('display =',this.name,age)
+//         }
+// }
+
+// let std1=new std('Anu')
+// std1.display(21)
+// std1.classroom
+
+
+// function Demo(callback){
+//         console.log('demo fun');
+//         callback()
+// }
+
+// function Sample(){
+//         console.log('sample fun');
+// }
+
+// Demo(Sample)
+
+
+
+// function Demo(callback){
+//         console.log('demo fun');
+//         callback(Sample1)
+        
+// }
+
+// function Sample(callback){
+//         console.log('sample fun');
+//         callback()
+// }
+
+// function Sample1(){
+//         console.log('Sample1 fun')
+// }
+// Demo(Sample)
+
+
+
+// const data=new Promise((resolve,reject)=>{
+//         if (10==10){
+//                 resolve('eql')
+//         }
+//         else{
+//                 reject(error)
+//         }
+// })
+// data.then(result=>console.log(result)).catch(error=>console.log(error)).finally(()=>console.log("prg ends"))
+
+
+// async function demo() {
+//         const data= new Promise((resolve,reject)=>{
+//                 setTimeout(()=>resolve("data unavailable"),2000)
+//         })
+//         const result=await data
+//         console.log(result);       
+// }
+// demo()
