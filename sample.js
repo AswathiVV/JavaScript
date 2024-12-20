@@ -262,3 +262,31 @@
 //         console.log(result);       
 // }
 // demo()
+
+
+// const fetchdata = async() => {
+//     try{
+//         const response = await fetch("https://dummyjson.com/products")
+//         const data=await response.json()
+//         console.log(data.products);
+//     }
+//     catch(error){
+//         console.log(error);
+
+//     }
+// }
+// fetchdata()
+
+
+const fetchdata = async() => {
+    try{
+        const response = await fetch("https://dummyjson.com/posts")
+        const data=await response.json()
+        console.log(data.posts);
+    }
+    catch(error){
+        console.log(error);
+
+    }
+}
+fetchdata()
